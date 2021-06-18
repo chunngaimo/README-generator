@@ -44,9 +44,8 @@ ${data.test}
 
 ## Questions
 
-Contact me with questions through Github at ${data.github}
- or by email through ${data.email}.
-`;
+Contact me with questions 
+through Github at [${data.github}](https://github.com/${data.github}/) or by email through ${data.email}.`;
 }
 
 module.exports = generateMarkdown;
